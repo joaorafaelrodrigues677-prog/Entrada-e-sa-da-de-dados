@@ -5,7 +5,7 @@ Basicamente é a forma como seu programa recebe **informações (entrada)** e co
 #1) Saída
 ```
 O objeto System.out representa a saída padrão, permitindo exibir dados no console quando executamos uma aplicação em Java. O System.out possui diversos métodos para gerar saídas, sendo os mais utilizados os métodos **println**, **printf** e **print**.
-```
+
 ```
 ## ✅ Método println()
 
