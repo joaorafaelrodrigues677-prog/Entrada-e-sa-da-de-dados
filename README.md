@@ -19,8 +19,8 @@ System.out.println("Meu segundo println em java.);
 ```
 O método System.out.printf() mostra pos dados na saída formatados. um especificador d formato se inicia com o símnolo %, seguido por um caractere que representa o tipo de dado.
 ```
-Exemplos:
-```
+#Exemplos:
+
 Double numDecimal = 23.8954;
 ```
 int minhaIdade = 29;
