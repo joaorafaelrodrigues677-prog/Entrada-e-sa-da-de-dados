@@ -1,38 +1,50 @@
 ## Entrada e saída de dados
 #Entrada e Saida de dados (I/O) em Java
-Basicamente é a forma como seu programa recebe informações (entrada) e como ele mostra informações (saída).
+Basicamente é a forma como seu programa recebe **informações (entrada)** e como ele mostra informações **(saída**).
 ```
 #1) Saída
-O objeto System.out representa a saída padrão, permitindo exibir dados no console quando executamos uma aplicação em Java. O System.out possui diversos métodos para gerar saídas, sendo os mais utilizados os métodos println, printf e print.
 ```
-✅ Método println()
+O objeto System.out representa a saída padrão, permitindo exibir dados no console quando executamos uma aplicação em Java. O System.out possui diversos métodos para gerar saídas, sendo os mais utilizados os métodos **println**, **printf** e **print**.
 ```
-O método System.out.println() gera uma string de texto, cria uma nova linha abaixo da atual e então posiciona o cursor nessa linha.
 ```
-Exemplos:
+## ✅ Método println()
+
+O método **System.out.println()** gera uma string de texto, cria uma nova linha abaixo da atual e então posiciona o cursor nessa linha.
+
+**Exemplos:**
 ```
+
 System.out.println("O Gremio vai sair campeão);
-```
 System.out.println("Meu segundo println em java.);
 ```
-✅ Método printf()
+
+
+## ✅ Método printf()
+
+O método System.out.printf() mostra pos dados na saída formatados. um especificador d formato se inicia com o símbolo %, seguido por um caractere que representa o tipo de dado.
+
+
+**Exemplos:** 
 ```
-O método System.out.printf() mostra pos dados na saída formatados. um especificador d formato se inicia com o símnolo %, seguido por um caractere que representa o tipo de dado.
-```
-#Exemplos:
 
 Double numDecimal = 23.8954;
-```
 int minhaIdade = 29;
-```
 String meuNome = "Renato Gaúcho";
-```
-char gremio= 'g';
-```
+char grêmio= 'g';
+
 System.out.printf("Número = %.2f%n", numDecimal); 
-```
 System.out.printf("Minha idade = %.2d%n", minhaIdade);
-```
 System.out.printf("Meu nome = %.2s%n", meuNome); 
-```
 System.out.printf("Primeira letra = %C", gremio); 
+```
+
+## ✅ Método print()
+
+O método **System.out.print()** gera uma string de texto, porém diferentemente do método println(), não cria uma nova linha abaixo da atual, deixando o cursor na mesma linha onde a string foi impressa.
+
+**Exemplos:** 
+```
+
+System.out.print("O Grêmio vai sair campeão.");
+System.out.print("E o Inter não!");
+```
